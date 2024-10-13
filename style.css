@@ -1,1 +1,22 @@
-
+body {
+    background-color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navigationButton {
+    background-color: lightskyblue;
+    color: white;
+    border: 2px solid blue;
+    cursor: pointer;
+}
+.navigationButton:hover {
+    background-color: lightgreen;
+    border: 2px solid green;
+}
+header{
+    background-color: lightgreen;
+}
+nav{
+    background-color: cyan;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
