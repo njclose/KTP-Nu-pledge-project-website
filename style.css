@@ -1,25 +1,122 @@
+
 body {
     background-color: whitesmoke;
     font-family: 'Times New Roman', Times, serif;
 }
-.navigationButton {
+
+.leftButton{
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+    border-left: 2px solid blue;
+    border-right: 1px solid blue;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 30px;
     background-color: lightskyblue;
     color: white;
-    border: 2px solid blue;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.middleButton{
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+    border-left: 1px solid blue;
+    border-right: 1px solid blue;
+    background-color: lightskyblue;
+    color: white;
     cursor: pointer;
 }
-.navigationButton:hover {
-    background-color: lightgreen;
-    border: 2px solid green;
+
+.rightButton{
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+    border-left: 1px solid blue;
+    border-right: 2px solid blue;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 30px;
+    background-color: lightskyblue;
+    color: white;
+    cursor: pointer;
+    padding-right: 10px;
 }
-header{
+
+.leftButton:hover {
     background-color: lightgreen;
+    border-color: green;
 }
+.middleButton:hover {
+    background-color: lightgreen;
+    border-color:green;
+}
+.rightButton:hover {
+    background-color: lightgreen;
+    border-color: green;
+}
+
 nav{
-    background-color: cyan;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1px;
 }
+
 .pageTitle {
-    color: black;
+    color: white;
+    border: 3px ;
+    background-color: lightskyblue;
+    border-radius: 10px;
+    padding-left: 7px;
+}
+
+.sectionTitle{
+    border: 3px;
+    border-radius: 10px;
+    background-color: lightgreen;
+    color: white;
+    margin-left: 30px;
+    padding-left: 7px
+}
+
+#fratName{
+    font-size: 90px;
+    color: white;
+    text-shadow: 5px 5px lightgreen;
+}
+
+.mainTitle{
+    margin: 0 0 0 0;
+    border: 5px solid blue;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-width: 0px;;
+    background: lightskyblue;
+    padding: 0 0 0 0;
+    height: 100px;
+    text-align: center;
+}
+
+#codingCampLabel{
+    margin: 0 0 0 0;
+}
+
+.aboutUs{
+    border: 2px solid green ;
+    border-radius: 15px;
+    padding:  0px 0px 0px 10px;
+    background-color: lightgreen;
+    color: white;
+}
+
+.codingCampLabel{
+    text-align: center;
+    border: 5px solid blue;
+    border-top-width: 0px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin: auto;
+    background-color: lightskyblue;
+    color: white;
+    font-size: 25px;
+    padding-bottom: 13px;
+    text-shadow: 2px 2px lightgreen;
 }
