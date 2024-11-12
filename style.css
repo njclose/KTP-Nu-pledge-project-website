@@ -57,7 +57,7 @@ body {
     border-color: green;
 }
 
-nav{
+.navHeaderButtons{
     display: flex;
     justify-content: center;
     text-align: center;
@@ -146,4 +146,42 @@ iframe{
     margin-left: 45px;
     align-items: center;
     border-width: 0 0 0 0;
+}
+
+.aboutUsPhotos{
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+.aboutUsNames{
+    border: 2px solid blue;
+    border-radius: 10px;
+    background-color: lightskyblue;
+    padding: 2px 4px 2px 4px;
+    font-size: 13px;
+}
+
+.ktpWebsiteButton{
+    background-color: lightskyblue;
+    border: 2px solid blue;
+    color: white;
+    border-radius: 20px;
+    margin: 0 2px 0 2px;
+}
+
+.ktpWebsiteButton:hover{
+    background-color: lightgreen;
+    border-color: green;
+}
+
+.aboutUsInfoContainer{
+    text-align: center;
+    display: flex;
+    margin-right: 2%;
+    gap: 3px
+}
+
+.aboutUsInfo{
+    flex: 1;
+    align-items: center;
 }
